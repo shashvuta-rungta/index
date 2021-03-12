@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
     font-size: 2em;
     margin: 0;
@@ -18,12 +12,10 @@ body{
     font-family:serif;
     color: white;
     text-align:center;
-    /* display: inline-block; */
 }
 .header h1 a {
     display: inline;
     background-color:cyan;
-    /* margin-top: 50%; */
 }
 nav ul li{
     display: inline;
@@ -48,7 +40,6 @@ nav ul li a {
 }
 .header{
     background-color:rgb(209, 18, 18);
-    /* margin:0;             */
     height:50px;
 }
 
@@ -64,10 +55,8 @@ nav ul li a {
     background-image: url(../static/football2.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
-    height:800px; 
     margin: 0;   
 }
-
 .next {
     border: none;
     background: #007bff;
@@ -77,8 +66,17 @@ nav ul li a {
     color: #fff;
     margin-top: 50px;
 }
+.project a{
+    text-decoration: none;
+    color: white;
+}
+.project a img{
+    border-radius: 10px;
+    height:400px;
+}
 .profile img{
     border-radius: 50%;
-    width: 20%;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    margin: 0;
 }
